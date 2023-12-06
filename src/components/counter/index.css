@@ -1,0 +1,22 @@
+.counter-wrpr {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-wrpr {
+  display: flex;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f1948a;
+  cursor: pointer;
+  width: 100px;
+  font-weight: bold;
+}
+
+button:first-child {
+  margin-right: 20px;
+}
